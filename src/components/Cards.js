@@ -11,7 +11,7 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src={"/images/img-9.jpg"}
+              src="/images/img-9.jpg"
               text="Explore the hidden waterfall deep inside the Amazon Jungle"
               label="Adventure"
               path="/services"
@@ -41,6 +41,34 @@ function Cards() {
               text="Ride through the Sahara Desert on a guided camel tour"
               label="Adrenaline"
               path="/sign-up"
+            />
+          </ul>
+          <h1>More Luxury Travels</h1>
+          <br />
+          <ul className="cards__items">
+            <CardItem
+              src="/images/img-7.jpg"
+              text="Go Skiing on the Alps"
+              label="Luxury"
+              path="/services"
+            />
+            <CardItem
+              src="/images/img-6.jpg"
+              text="Visit Tokyo Shibuya"
+              label="Luxury"
+              path="/services"
+            />
+            <CardItem
+              src="/images/img-10.jpg"
+              text="Visit Seol Korea"
+              label="Luxury"
+              path="/services"
+            />
+            <CardItem
+              src="/images/img-11.jpg"
+              text="Visit Hot Springs in Japan"
+              label="Luxury"
+              path="/services"
             />
           </ul>
         </div>
