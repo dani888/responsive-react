@@ -60,7 +60,7 @@ function Cards() {
             />
             <CardItem
               src="/images/img-10.jpg"
-              text="Visit Seol Korea"
+              text="Visit Seoul Korea"
               label="Luxury"
               path="/services"
             />
